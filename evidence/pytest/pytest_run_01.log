@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-9.0.2, pluggy-1.6.0 -- /home/kali/Documentos/kali-qa-portfolio/postman/venv/bin/python
+cachedir: .pytest_cache
+metadata: {'Python': '3.13.11', 'Platform': 'Linux-6.18.9+kali-amd64-x86_64-with-glibc2.42', 'Packages': {'pytest': '9.0.2', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.2.0', 'metadata': '3.1.1'}}
+rootdir: /home/kali/Documentos/kali-qa-portfolio/automation-tests/pytest-api
+plugins: html-4.2.0, metadata-3.1.1
+collecting ... collected 3 items
+
+test_api.py::test_jsonplaceholder PASSED                                 [ 33%]
+test_api.py::test_africa_countries PASSED                                [ 66%]
+test_api.py::test_worldbank PASSED                                       [100%]
+
+- Generated html report: file:///home/kali/Documentos/kali-qa-portfolio/automation-tests/pytest-api/../../evidence/pytest/pytest_run_01.html -
+============================== 3 passed in 4.66s ===============================
